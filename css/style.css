@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: right;   
+}
+
+/** Make sure to remove any serif fonts for sans serif styles. */
+
+nav a {
+    padding: 6px;
+    color: #333;
+    background-color: azure;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+nav a:hover {
+    background-color: azure;
+    color: #333;
+    padding: 7px;
+
+}
+
+footer {
+
+    padding: 20px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-footer-btn {
+    background-color: azure;
+    color: #333;
+    padding: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.contact-footer-btn:hover {
+    background-color: azure;
+    color: #333;
+    padding: 7px;
+}
+
+.contact-footer-btn a {
+    text-decoration: none;
+    color: #333;
+}
+
