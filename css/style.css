@@ -144,6 +144,26 @@ h1 {
     grid-gap: 20px;
 }
 
+/** Write a media query that turns .cards into a single-column grid display. */
+
+@media screen and (max-width: 768px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 0px;
+        place-items: center;
+    }
+
+    .card {
+        
+        justify-content: center;
+        margin: 4pc;
+        
+    }
+}
+
 .langs {
     margin-left: 20px;
 }
