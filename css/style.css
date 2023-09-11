@@ -257,4 +257,5 @@ hr {
 input[type=submit] {
     width: 100px;
     margin: 0px auto;
+    height: 30px;
 }
