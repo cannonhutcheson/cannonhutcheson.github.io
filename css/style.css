@@ -1,5 +1,15 @@
+/**
+* Need to load in our Google Fonts:
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+
 body {
     margin: 0;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -7,7 +17,8 @@ nav {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     display: flex;
-    justify-content: right;   
+    justify-content: right;
+    margin-bottom: 0px;   
 }
 
 /** Make sure to remove any serif fonts for sans serif styles. */
@@ -19,6 +30,7 @@ nav a {
     border-radius: 8px;
     text-decoration: none;
     margin-right: 18px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -57,3 +69,192 @@ footer {
     color: #333;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-section {
+    background-color: #333;
+    color: azure;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.ncr-link {
+    color: azure;
+    text-decoration: none;
+}
+
+.ncr-link:visited {
+    color: azure;
+    text-decoration: none;
+}
+.intro-section {
+    background-color: azure;
+    color: #333;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 30px;
+}
+
+.intro-section * {
+    margin: 0px auto;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.card {
+    border: 1px solid white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card * li {
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.langs {
+    margin-left: 20px;
+}
+
+.langs * li {
+
+    padding-right: 40px;
+
+}
+
+.skills {
+    margin-right: 20px;
+}
+
+.headshot {
+    border-radius: 3px;
+    background-color: #333;
+    padding: 7px;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ncr-link:hover {
+    font-weight: bold;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 0px 0px azure;
+}
+
+.one-col form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.one-col {
+    background-color: #333;
+    color: azure;
+    margin: 40px;
+    border-radius: 8px;
+}
+
+.one-col * input {
+    color: #333;
+    background-color: azure;
+}
+
+.one-col * textarea {
+    color: #333;
+    background-color: azure;
+}
+
+.one-col form {
+    padding: 30px;
+}
+
+submit-btn {
+    background-color: azure;
+    color: #333;
+    padding: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 30px;
+}
+
+.one-col form input {
+    border-radius: 8px;
+}
+
+
+.one-col form textarea {
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.intro-section p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*
+    Make the hr element have three circular dots.
+*/
+hr {
+
+    border: 1px solid #333;
+    border-radius: 20%;
+    width: 100px;
+    height: 1px;
+    background-color: #333;
+
+}
+
+.contact-pg {
+
+    text-align: center;
+    background-color: azure;
+    margin: 0px;
+    margin-top: 0px;
+    padding:10px;
+    color: #333;
+
+}
+
+input[type=submit] {
+    width: 100px;
+    margin: 0px auto;
+}
