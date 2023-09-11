@@ -152,14 +152,14 @@ h1 {
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        grid-gap: 0px;
         place-items: center;
+        text-align: center;
     }
 
     .card {
         
-        justify-content: center;
-        margin: 4pc;
+        margin: 0px auto;
+        padding: 200px;
         
     }
 }
